@@ -35,9 +35,9 @@ function addNumbers(num1, num2) {
  * the returned value should look like: 'Goodbye, Andy. Have a great day.'
  * 
 */
-function sayGoodbye('Goodbye, + {name}. Have a great day.') {
+function sayGoodbye(Valerie) {
   /* code here */
-return (sayGoodbye('Valerie'));
+return (sayGoodbye('Goodbye , {name}. Have a great day'));
 }
 
 console.log(sayGoodbye);
