@@ -79,8 +79,7 @@ function temperatureCtoF(celsius) {
  * 
  * Hint: You can call your `temperatureCtoF` function from inside `temperatureInF`.
 */
-function temperatureInF(/* code here */) {
-  /* code here */
+function temperatureInF(fahrenheit) {
 }
 
 
@@ -117,8 +116,8 @@ function makePersonObject(/* code here */) {
  * passing { id: 1, name: 'Leia', email: 'leia@leia.com` } as the argument,
  * the returned value should look like `Hello, my name is Leia`.
 */
-function getName(/* code here */) {
-  /* code here */
+function getName(name) {
+  
 }
 
 
@@ -156,10 +155,19 @@ function appleIndex(/* code here */) {
  * passing in [ 'orange', 'apple', 'banana', 'apples', 'apple', 'mango' ] as the argument,
  * the returned value should be: [ false, true, false, false, true, false ].
 */
-function isItAnApple(/* code here */) {
-  /* code here */
+function isItAnApple(arr) {
+  
+  const filteredApple = [];
+  
+  for ( let i = 0; i < arr.length; i++ ) {
+    if (arr[i] === 'apple') {
+      filteredApple.push(true);
+      continue;
+    } 
+    filteredApple.push(false);
 }
-
+  return filteredApple;
+}
 
 
 /*
